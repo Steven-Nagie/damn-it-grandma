@@ -1,11 +1,11 @@
 {
-    "title": "Landing Page",
-    "name": "startbootstrap-landing-page",
+    "title": "Damn It Grandma!",
+    "name": "damn-it-grandma",
     "version": "5.0.8",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "An HTML landing page template built with Bootstrap",
+    "description": "A conversation tool and guide for people struggling to deal with obstinate friends and family members",
     "keywords": [
         "css",
         "sass",
@@ -14,15 +14,11 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/themes/landing-page",
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-landing-page/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "homepage": "https://damnitgrandma.com",
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Steven Nagie",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Steven Nagie"
     ],
     "repository": {
         "type": "git",
