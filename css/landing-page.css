@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Landing Page v5.0.8 (https://startbootstrap.com/themes/landing-page)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
+ * Start Bootstrap - Damn It Grandma! v5.0.8 (https://damnitgrandma.com)
+ * Copyright 2013-2020 Steven Nagie
+ * Licensed under MIT (https://github.com/StartBootstrap/damn-it-grandma/blob/master/LICENSE)
  */
 
 body {
@@ -69,10 +69,6 @@ header.masthead h1 {
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem;
-}
-
-.features-icons .features-icons-item {
-  max-width: 20rem;
 }
 
 .features-icons .features-icons-item .features-icons-icon {
