@@ -72,10 +72,35 @@
     </div>
   </section>
 
+<!--  TODO: Class specific to top and bottom padding instead of features-icons-->
+  <section class="features-icons text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3><u>Quicklinks</u></h3>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-lg-3">
+          <a href="#economy-row">Economy</a>
+        </div>
+        <div class="col-lg-3">
+          <a href="#environment-row">Environment</a>
+        </div>
+        <div class="col-lg-3">
+          <a href="#black-lives-row">Black Lives Matter</a>
+        </div>
+        <div class="col-lg-3">
+          <a href="#healthcare-row">Healthcare</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Image Showcases -->
   <section class="showcase">
     <div class="container-fluid p-0">
-      <div class="row no-gutters">
+      <div id="economy-row" class="row no-gutters">
 
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/happy_stock_broker.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
@@ -87,8 +112,36 @@
       <div class="row no-gutters collapse" id="economyInfo">
         <div class="col-xs-12 showcase-text text-center">
           <p class="lead mb-0">
-            There are a couple common misconceptions about the economy that generally leads people to bad conclusions.
+            There are a couple common misconceptions about the economy that can lead people to bad conclusions.
 
+            <br>
+            <br>
+
+            First, the stock market is not the economy. The major measurements of the stock market that are always bandied about are usually the Dow and NASDEQ, right?
+            Well, both of these are simply indices (or averaged measurements) on a group of stocks. In the case of the NASDEQ, it follows almost all of the stocks listed on the NASDEQ stock exchange.
+            In the case of the Dow, it measures just 30 large companies. So this raises the obvious question: Can we really say the economy is healthy just because the stock of 30 large companies is doing well?
+            <br>
+            <br>
+
+            Surely that depends on who you are. If you're a major stockholder in those companies, then you might feel like it is. But the vast majority of people don't have money invested in the stock market.
+            Instead, we could look at the real buying power of the average family. Since 2001, the median household income for renters rose 0.5%, while rent prices rose 13%.
+            At the same time, US wealth has become increasingly monopolized by a smaller and smaller percentage of people.
+
+
+            <br>
+            <br>
+
+            As
+            <a href="https://www.pewsocialtrends.org/2020/01/09/trends-in-income-and-wealth-inequality/" target="_blank">
+              Pew Research Center
+            </a> or
+            <a href="https://www.brookings.edu/blog/up-front/2019/06/25/six-facts-about-wealth-in-the-united-states/" target="_blank">
+              the Brooking Center
+            </a>
+            will show you, the top 1% of people now have more wealth than than the entire middle class here in America, and that gap is always increasing.
+            Since 1995, the share of wealth held by the lower and middle income groups have decreased while the rich have gotten richer.
+
+            <br>
             <br>
 
             As you can see <a
@@ -96,25 +149,49 @@
               here
             </a>, Trump did worse with the stock market than Obama over the same span of time in their respective presidency's.
             This actually follows an <a
-              href="https://www.forbes.com/sites/peterlazaroff/2016/07/26/democrats-vs-republicans-who-is-better-for-the-stock-market/#51b56cdd239d">
+              href="https://www.forbes.com/sites/peterlazaroff/2016/07/26/democrats-vs-republicans-who-is-better-for-the-stock-market/#51b56cdd239d" target="_blank">
               established trend reported by Forbes
-            </a>.
+            </a>, where the stock market tends to do better under Democratic presidents than under Republicans.
           </p>
 
         </div>
       </div>
       <div class="row no-gutters bg-light">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/cold_weather.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
+        <div class="col-lg-6 my-auto showcase-text" id="environment-row">
           <h2>Global warming? When hell freezes over</h2>
           <p class="lead mb-0">The climate is always changing! Volcanoes generate more carbon than humans! Environmental protections get in the way of the economy!</p>
         </div>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/happy_cop.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text" id="black-lives-row">
           <h2>All lives matter!</h2>
           <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+        </div>
+      </div>
+      <div class="row no-gutters bg-light">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/stern_doctor.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text" id="healthcare-row">
+          <h2>I'm not sick, I shouldn't have to pay!</h2>
+          <p class="lead mb-0">I pay for insurance, I shouldn't have to pay extra just to help someone who's too lazy to pay for their own insurance!</p>
+          <a data-toggle="collapse" href="#healthcareInfo" role="button" aria-expanded="false" aria-controls="healthcareInfo">But how much does healthcare really cost?</a>
+        </div>
+      </div>
+      <div class="row no-gutters collapse" id="healthcareInfo">
+        <div class="col-xs-12 showcase-text text-center">
+          <p class="lead mb-0">
+
+            Americans already pay 4 times more per person for healthcare. And that's for a medical system that lags well behind the rest of the developed world in patient outcomes.
+            Our rate of infant mortality, death in childbirth, and death due to lack of care is many times higher than the rest of the developed world.
+
+            <br>
+            <br>
+
+            A great deal of that goes to pharmaceutical and insurance companies - third parties whose only vested interest is in keeping their stock prices high and their costs low.
+            Their bottom line costs you money but never lends anything to your health.
+
+          </p>
         </div>
       </div>
     </div>
